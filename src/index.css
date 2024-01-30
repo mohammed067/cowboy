@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+/* Note: Firefox currently does not support hiding the scrollbar with this method */
+/* For Firefox, you can use a custom scrollbar library like SimpleBar (https://github.com/Grsmto/simplebar) */
+* {
+    scrollbar-width: thin; /* "thin" creates a thin scrollbar, adjust as needed */
+    scrollbar-color: transparent transparent; /* scrollbar color and track color */
+}
+
